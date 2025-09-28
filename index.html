@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian & Pakistani Student Association - York University</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        header {
+            background: #0066cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            font-weight: bold;
+            color: white;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #0066cc;
+        }
+        /* About Section */
+        #about p {
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+        }
+        /* Events Section */
+        .event {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        /* Officers Section */
+        .officer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            text-align: center;
+        }
+        .officer img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .officers-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        /* Contact Section */
+        form {
+            max-width: 500px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px;
+            background: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="logo.PNG" alt="IPSA Logo">
+        <h1>Indian & Pakistani Student Association</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#events">Events</a>
+            <a href="#officers">Officers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About IPSA</h2>
+        <p>
+            The Indian & Pakistani Student Association (IPSA) at York University celebrates our shared cultural heritage, promotes unity among students, and creates opportunities for meaningful connections. We organize cultural, social, and educational events to foster a welcoming environment for all students.
+        </p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <h3>Coming Soon!</h3>
+            <p>We are currently planning our first cultural and social events. Stay tuned!</p>
+        </div>
+    </section>
+
+    <!-- Officers Section -->
+    <section id="officers">
+        <h2>Meet Our Team</h2>
+        <div class="officers-container">
+            <div class="officer">
+                <img src="https://via.placeholder.com/150?text=TBD" alt="President">
+                <h4>President: TBD</h4>
+            </div>
+            <div class="officer">
+                <img src="https://via.placeholder.com/150?text=TBD" alt="Vice President">
+                <h4>Vice President: TBD</h4>
+            </div>
+            <div class="officer">
+                <img src="https://via.placeholder.com/150?text=TBD" alt="Secretary">
+                <h4>Secretary: TBD</h4>
+            </div>
+            <div class="officer">
+                <img src="https://via.placeholder.com/150?text=TBD" alt="Treasurer">
+                <h4>Treasurer: TBD</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Indian & Pakistani Student Association, York University. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
